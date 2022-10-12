@@ -21,9 +21,19 @@ Join the Discord! -> https://discord.gg/wt3WYhtw
 
 # Getting Started:
 
+## Wallet
+
+Recomeded: Metamask
+
+Network Name: `Mineonlium`
+RPC Server: `http://34.132.68.218:8545`
+Chain ID: `54321`
+Currency Symbol: `MO`
+Block Explorer URL: COMING BY THE END OF TODAY!!! 
+
 ## Community Pool
 
-API for mining stats will be avalible soon! For now payouts are set to happen every 10min. with a minimum of 1MO
+API for mining stats will be avalible soon! For now payouts are set to happen every 10min. with a minimum of 1MO. IF you have any issues! Reach out to us on Discord!
 
 ```
 stratum+tcp://134.215.244.171:4073
