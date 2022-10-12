@@ -36,7 +36,7 @@ Block Explorer URL: COMING BY THE END OF TODAY!!!
 API for mining stats will be avalible soon! For now payouts are set to happen every 10min. with a minimum of 1MO. IF you have any issues! Reach out to us on Discord!
 
 ```
-stratum+tcp://134.215.244.171:4073
+Coming soon!
 ```
 
 
