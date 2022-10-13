@@ -68,3 +68,9 @@ start the node. note these flags expect port 60606 and 8545 are open for p2p and
 nohup besu --data-path=data --bootnodes=enode://0c53a65b8b98c95698e05b62c97c180b3b6febae1d7b516e7047f7c36c373e0bbed38c2c83b2b9a264a375886fb2c6a44e26938b1bee4c8e23e788938b49e00a@134.215.244.171:60606 --genesis-file=genesis.json --miner-stratum-enabled --miner-stratum-host=0.0.0.0 --miner-stratum-port=50001 --miner-enabled=true --miner-coinbase=0x5bbfa5724260Cb175cB39b24802A04c3bfe72eb3 --rpc-http-host=0.0.0.0  --rpc-http-enabled=true  &
 ```
 
+
+**NOTE** If installing on HIVE OS you can add the following to the `xinit.user.sh` file in your $HOME to auto start the node when the rig starts
+```
+cd /home/user/EVMProtocol && nohup besu  --data-path=data --bootnodes=enode://0c53a65b8b98c95698e05b62c97c180b3b6febae1d7b516e7047f7c36c373e0bbed38c2c83b2b9a264a375886fb2c6a44e26938b1bee4c8e23e788938b49e00a@134.215.244.171:60606 --genesis-file=genesis.json --miner-stratum-enabled --miner-stratum-host=0.0.0.0 --miner-stratum-port=50001 --miner-enabled=true --miner-coinbase=0x5bbfa5724260Cb175cB39b24802A04c3bfe72eb3 --rpc-http-host=0.0.0.0  --rpc-http-enabled=true  &
+```
+
