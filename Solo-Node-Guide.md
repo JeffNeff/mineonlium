@@ -65,11 +65,6 @@ paste the following:
 start the node. note these flags expect port 60606 and 8545 are open for p2p and rpc respectively.
 
 ```
-besu --data-path=data --bootnodes=enode://0c53a65b8b98c95698e05b62c97c180b3b6febae1d7b516e7047f7c36c373e0bbed38c2c83b2b9a264a375886fb2c6a44e26938b1bee4c8e23e788938b49e00a@134.215.244.171:60606 --genesis-file=genesis.json --host-allowlist="*" --rpc-http-cors-origins="all" --miner-coinbase=0x5bbfa5724260Cb175cB39b24802A04c3bfe72eb3 --rpc-http-host=0.0.0.0 --max-peers=420000 --rpc-http-enabled=true --miner-enabled=true --rpc-http-max-active-connections=4000000 --rpc-ws-max-active-connections=4000000 --rpc-http-port=6666 --tx-pool-max-size=8192 --revert-reason-enabled=true --metrics-enabled=true --rpc-http-api=ADMIN,ETH,WEB3,NET  --p2p-enabled=true --p2p-host=0.0.0.0 --p2p-port=60606
-```
-
-Some helpfull tags, if you would like to solo mine :) 
-```
---rpc-http-enabled=true  --rpc-http-max-active-connections=4000000 --rpc-ws-max-active-connections=4000000 --tx-pool-max-size=8192 --revert-reason-enabled=true --metrics-enabled=true --rpc-http-api=ADMIN,ETH,WEB3,NET,MINER --miner-stratum-enabled --miner-stratum-host=0.0.0.0 --miner-stratum-port=50001 --miner-enabled=true  --miner-coinbase=0x5bbfa5724260Cb175cB39b24802A04c3bfe72eb3
+nohup besu --data-path=data --bootnodes=enode://0c53a65b8b98c95698e05b62c97c180b3b6febae1d7b516e7047f7c36c373e0bbed38c2c83b2b9a264a375886fb2c6a44e26938b1bee4c8e23e788938b49e00a@134.215.244.171:60606 --genesis-file=genesis.json --miner-stratum-enabled --miner-stratum-host=0.0.0.0 --miner-stratum-port=50001 --miner-enabled=true --miner-coinbase=0x5bbfa5724260Cb175cB39b24802A04c3bfe72eb3 --rpc-http-host=0.0.0.0  --rpc-http-enabled=true  &
 ```
 
