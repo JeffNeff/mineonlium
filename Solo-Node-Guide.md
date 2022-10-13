@@ -4,7 +4,7 @@
 Install besu 
 
 ```
-sudo ufw allow 30303
+sudo ufw allow 60606
 sudo apt-get update
 sudo apt install default-jdk
 java - version
