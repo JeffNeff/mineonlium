@@ -6,10 +6,8 @@ Install besu
 ```
 sudo ufw allow 60606
 sudo apt-get update
-sudo apt install default-jdk
-java - version
+sudo apt-get install default-jdk unzip
 wget https://hyperledger.jfrog.io/artifactory/besu-binaries/besu/22.7.4/besu-22.7.4.zip
-sudo apt-get install unzip
 unzip besu-22.7.4.zip
 cd besu-22.7.4/bin
 export PATH=$PWD:$PATH
