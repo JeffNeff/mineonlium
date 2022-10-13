@@ -29,7 +29,7 @@ Network Name: `Mineonlium`
 RPC Server: `http://34.132.68.218:8545`
 Chain ID: `54321`
 Currency Symbol: `MO`
-Block Explorer URL: COMING BY THE END OF TODAY!!! 
+Block Explorer URL: `http://134.215.244.171/dashboard`
 
 ## Community Pool
 
