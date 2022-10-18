@@ -44,7 +44,7 @@ Coming soon!
 
 Solo mining will be highly encouraged throughout the project and a full guide on setting up a personal stratum server for solo mining is comming soon!
 
-for those of you that know... use besu, the genesis file below, and this bootnode := `enode://186fc7e1dc26686eaef6c9a57f33cc211650bc22b5152072f32593eb39f93ee3eb2c50e5e8d99905cd3021ff595f4c5b43a9d249d596d776649ba01f6dea8584@134.215.244.171:60606`
+for those of you that know... use besu, the genesis file below, and this bootnode := `enode://186fc7e1dc26686eaef6c9a57f33cc211650bc22b5152072f32593eb39f93ee3eb2c50e5e8d99905cd3021ff595f4c5b43a9d249d596d776649ba01f6dea8584@34.132.68.218:60606`
 
 If you need help please reach out to me on the Discord -> https://discord.gg/wt3WYhtw
 
